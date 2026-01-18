@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 100px;
+}
+
+input {
+    width: 220px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:first-of-type {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:last-of-type {
+    background-color: #f44336;
+    color: white;
+}
+
+#messages {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#attempts {
+    margin-top: 5px;
+    color: #555;
+}
